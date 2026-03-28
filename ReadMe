@@ -1,0 +1,28 @@
+Overview
+
+Doc_QA is an AI-powered system that allows users to upload documents and ask natural language questions to extract relevant information instantly.
+Instead of manually searching through large files, the system understands context and provides precise answers.
+
+✨ Features
+📄 Upload and process documents (PDF, TXT, etc.)
+🤖 Ask questions in natural language
+🔍 Context-aware answer extraction
+⚡ Fast retrieval using embeddings
+🧠 Supports large documents efficiently
+
+Tech Stack
+Python
+LangChain
+OpenAI / LLM APIs
+FAISS / Vector Database
+Streamlit / Flask (Frontend/UI)
+PyPDF / Document Loaders
+
+How It Works
+📥 Upload document
+✂️ Split text into chunks
+🔢 Convert text into embeddings
+🗄️ Store embeddings in vector database
+❓ User asks a question
+🔍 Relevant chunks are retrieved
+🤖 LLM generates accurate answer
